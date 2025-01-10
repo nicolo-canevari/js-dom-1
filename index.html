@@ -6,8 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- CSS -->
     <link rel="stylesheet" href="./CSS/style.css">
-    <!-- JS -->
-     <script src="./JAVASCRIPT/script.js"></script>
     <title>Luce</title>
 </head>
 
@@ -18,23 +16,28 @@
         <!-- contenitore immagine e bottone -->
         <div class="card">
 
-            <!-- immagine -->
+            <!-- immagini -->
             <div id="figure">
 
-                <img src="./IMG/white_lamp.png" alt="lampadina spenta">
+                <img id="luce_spenta" src="./IMG/white_lamp.png" alt="lampadina spenta">
+
+                <img id="luce_accesa" src="./IMG/yellow_lamp.png" alt="lampadina accesa">
 
             </div>
 
             <!-- bottone -->
             <div id="bottone">
 
-                <input type="button" value="Accendi">
+                <input id="accendiBtn" type="button" value="Accendi">
 
             </div>
 
         </div>
 
     </div>
+
+     <!-- JS -->
+     <script src="./JAVASCRIPT/script.js"></script>
 
 </body>
 

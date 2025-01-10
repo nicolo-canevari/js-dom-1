@@ -25,6 +25,14 @@
 
 }
 
+#figure.img {
+
+    width: 100%;
+    height: 100%;
+
+}
+
+
 #bottone {
     
     display: flex;
@@ -34,6 +42,14 @@
 
 }
 
+
+/* REGOLE IMG */
+
+#luce_accesa {
+
+    display: none;
+
+}
 
 /* REGOLE INPUT */
 
@@ -47,3 +63,11 @@ input {
     cursor: pointer;
 
 }
+
+/* cambia il colore al click*/
+input.spegni {
+
+    background-color: gray; 
+
+}
+
