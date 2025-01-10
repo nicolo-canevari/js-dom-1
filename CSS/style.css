@@ -21,14 +21,17 @@
 
     display: flex;
     justify-content: center;
-    align-items: center;
+    position: relative;
+    width: 100%;
+    height: 100%;
 
 }
 
 #figure.img {
 
-    width: 100%;
-    height: 100%;
+    object-fit: contain;
+    position: absolute;
+    display: none;
 
 }
 
@@ -50,6 +53,13 @@
     display: none;
 
 }
+
+#luce_spenta {
+
+    display: block; 
+
+}
+
 
 /* REGOLE INPUT */
 
